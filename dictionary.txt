@@ -1,0 +1,258 @@
+abstraction;the act of specifying a general interface hiding implementation details.
+ACCU;Association of C and C++ Users.
+adapter;A simple form of a higher-order function.
+address;a memory location.
+aggregate;an array or a struct without a constructor.
+algorithm;a precise definition of a computation.
+alignment;placing objects in memory to suit hardware requirements.
+allocator;object used by standard library containers to allocate and deallocate memory.
+and;synonym for &&, the logical and operator.
+ANSI;The American national standards organization.
+application;a collection of programs seen as serving a common purpose.
+argument;a value passed to a function or a template.
+ARM;The Annotated C++ Reference Manual by Margaret Ellis and Bjarne Stroustrup.
+array;contiguous sequence of elements.
+auto;In C and C++98 a largely useless keyword redundantly indicating stack allocation for  local variables.
+backslash;'\' character.
+bad_alloc;standard exception thrown by new in case of failure to allocate free store.
+bad_cast;standard exception thrown if a dynamic_cast to a reference fails.
+basic_string;general standard-library string template parameterized by character type.
+BCPL;ancestor to C and C++ designed and implemented by Martin Richards.
+bit;a unit of memory that can hold 0 or 1.
+bitand;synonym for &, the bitwise and operator.
+bitfield;a number of bits in a word made accessible as a struct member.
+bitor;synonym for |, the bitwise or operator.
+bitset;a standard library 'almost container' holding N bits and providing logical operations  on those.
+block;see compound statement.
+bool;the built-in Boolean type. A bool can have the values true and false.
+bug;colloquial term for error.
+byte;a unit of memory that can hold a character of the C++ representation character set.
+C;programming language designed and originally implemented by Dennis Ritchie.
+C++;a general-purpose programming language.
+C++/CLI;A set of Microsoft extensions to C++ for use with their .Net system.
+C++03;name for the minor revision of the C++ standard represented by the 2003 corrigenda('a bug fix release').
+C++0x;the upcoming revision of the ISO C++ standard 'x' is scheduled to be '9'.
+C++98;the ISO C++ standard.
+C89;The 1989 ANSI standard for C based on K&R C with a few additions borrowed from C++.
+cast;operator for explicit type conversion most often best avoided.
+catch;keyword used to introduce a catch-clause.
+catch(...);catch every exception.
+catch-clause;a part of a try-block that handles exceptions of a specified type.
+cerr;standard unbuffered ostream for error or diagnostic output.
+Cfront;the front-end of Bjarne Stroustrup's original C++ compiler.
+char;character type typically an 8-bit byte.
+char*;pointer to a char or an array of char.
+cin;standard istream.
+class;a user defined data type.
+clone;a function that makes a copy of an object.
+closure;object representing a context.
+collection;a term sometimes used as a synonym for container.
+comment;block comment /* ... */ or line comment // ...
+compiler;the part of a C++ implementation that produces object code from a translation  unit.
+complex;standard library complex number template parameterized by scalar type.
+concept;a C++ language construct, providing type chaecking for template arguments.
+const;attribute of a declaration that makes the entity to which it refers readonly.
+constant;literal, object or value declared const, or enumerator.
+constraint;rule that restricts the set of acceptable arguments for a template parameter.
+constructor;member function with the same name as its class, used to initialize objects of  its class.
+const_cast;a type conversion operation that conversion between types that differ in const  and volatile type modifiers only.
+container;object that holds other objects.
+conversion;explicit type conversion or implicit type conversion.
+copy();standard algorithm for copying one sequence into another.
+cout;standard ostream.
+cpp;see preprocessor.
+crosscast;a cast from a class to a sibling class.
+Currying;producing a function of N-M arguments by specifying M arguments for a function  of N arguments.
+declaration;an introduction of a name into a scope.
+decltype;C++ox operator meaning the type of its operand.
+definition;a declaration that specifies the entity to which the declared name refers.
+delete;object destruction operator.
+design;creating a clean and reasonably simple structure of a system.
+destructor;member of a class used to clean up before deleting an object.
+downcast;a cast from a base class to one of its derived classes.
+element;an object in a container.
+enum;keyword for declaring enumerations.
+enumeration;a user-defined type consisting of a set of named values.
+enumerator;a name identifying a value of an enumeration.
+exception;object thrown by a throw-statement and (potentially) caught by an exception  handler associated by a try-block.
+explicit;keyword used to define a constructor so that it isn't used for implicit  conversions.
+expression;combination of operators and names producing a value.
+extension;see language extension.
+extern;a keyword used to indicate that the definition of an entity being declared is  defined elsewhere.
+extracter;an iostream >> (put to) function.
+facet;a class representing a primitive aspect of a locale, such as a way of writing an  integer or a character encoding.
+false;bool value converts to 0.
+field;see bitfield.
+file;a sequence of bytes or words holding information in a computer.
+finally;a language construct supporting ad hoc cleanup in some languages.
+find();standard library linear search algorithm for a value in a sequence.
+find_if();standard library linear search algorithm for an element meeting a search  criterion in a sequence.
+float;single-precision floating-point number.
+for-statement;iteration statement specifying an initializer, an iteration condition, a 'next  iteration' operation, and a controlled statement.
+free();C standard deallocation function. Use delete instead.
+friend;a function or class explicitly granted access to members of a class by that class.
+front-end;the parts of a compiler that perform lexical and syntax checking, type checking, and initial semantic checking of a translation unit.
+front_inserter();returns an iterator that can be used to add elements at the front of the container.
+fstream;a file stream for input and output.
+function;a named sequence of statements that can be invoked/called given arguments and that might return a value.
+functor;see function object.
+g++;see GNU C++.
+glossary;The Advanced Learners Dictionary of Current English. A pain to compile.
+goto;the infamous goto. Primarily useful in machine generated C++ code.
+grammar;a systematic description of the syntax of a language.
+GUI;Graphical User Interface.
+handle;an object that controls access to another.
+handler;see exception handler.
+hash_map;hashed contained based on the standard library framework.
+header;see header file.
+hiding;see information hiding.
+hierarchy;see class hierarchy.
+I/O;see iostream
+IDE;Integrated (or Interactive) Development Enviornment.
+identifier;see name.
+if-statement;statement selecting between two alternatives based on a condition.
+ifstream;an file stream for input.
+in-class;lexically within the declaration of a class.
+include;see #include.
+inheritance;a derived class is said to inherit the members of its base classes.
+initialization;giving an object an initial value.
+inlining;see inline function.
+input;see iostream.
+inserter;an iostream << (put to) function.
+instantiation;see template instantiation.
+int;basic signed integer type its precision is implementation-defined, but an int has at least 32 bits.
+interface;a set of declarations that defines how a part of a program can be accessed.
+iostream;standard library flexible, extensible, type-safe input and output framework.
+ISO;the international standards organization.
+ISO C;see C.
+ISO C++;C++.
+istream;input stream type.
+istringstream;a string stream for input.
+iteration;traversal of data structure, directly or indirectly using an iteration statement.
+iterator;a standard library abstraction for objects referring to elements of a sequence.
+K&R C;C as defined by Kernighan and Ritchie.
+Kernighan;Brian Kernighan is a co-author of Kernighan & Ritchie: The C programming Language .
+linkage;the process of merging code from separately compiled translation units into a program or part of a program.
+list;standard library linked container.
+literal;notation for values of bool, character types, integer types, or floating point types.
+locale;standard library class for representing culture dependencies relating to input and  output.
+loop;a statement that expresses the notion of doing something zero or more times.
+LSP;see Liskov Substitution Principle.
+lvalue;an expression that may appear on the left-hand side of an assignment.
+macro;facility for character substitution doesn't obey C++ scope or type rules.
+main();the function called by the system to start a C++ program.
+maintenance;work on a program after its initial release.
+malloc();C standard allocation function. Use new or vector instead.
+map;standard library associative container, based on 'less than' ordering.
+member;type, variable, constant, or function declared in the scope of a class.
+memory;static memory, stack, or free store.
+mem_fun();an adapter that allows a member function to be used as an argument to a standard algorithm requiring a free-standing function.
+method;see virtual member function.
+multi-method;a virtual function that selects the function to be called based on more than  one operand.
+multimap;map that allows multiple values for a key.
+mutable;an attribute of a member that makes it possible to change its value even if its object is declared to be const.
+name;sequence of letters and digits started by a letter, used to identify ({ ' name ' ) user defined entities in program text.
+namespace;a named scope.
+NCITS;National Committee for Information Technology Standards.
+new;object creation operator.
+new_handler;a (possibly user-defined) function called by new if operator new() fails to allocate sufficient memory.
+not;synonym for !, the logical negation operator.
+NULL;zero. 0. 0 is an integer. 0 can be implicitly converted to every pointer type.
+nullptr;C++0x keyword for the null pointer. It is not an integer. It can be assigned only to pointers.
+object;a contiguous region of memory holding a value of some type.
+ofstream;an file stream for output.
+OOD;see object-oriented design.
+OOP;see object-oriented programming.
+OOPL;see object-oriented programming language.
+operator;conventional notation for built-in operation, such as +, *, and &.
+optimizer;a part of a compiler that eliminates redundant operations from code and adjusts code to perform better on a given computer.
+or;synonym for ||, the logical or operator" },
+ostream;output stream type.
+output;see iostream.
+out_of_range;standard exception thrown by vector if an argument to at() is out of range.
+overload;see overloading.
+overloading;having more than one function with the same name in the same scope or having more than one operator with the same name in the same scope.
+override;see overriding.
+overriding;declaring a function in a derived class with the same name and a matching type  as a virtual function in a base class.
+paradigm;pretentious and overused term for a way of thinking.
+parameter;a variable declared in a function or templates for representing an argument.
+POD;'Plain Old Data' -(roughly) a class that doesn't contain data members that would be illegal in C.s.
+pointer;an object holding an address or 0.
+polymorphism;providing a single interface to entities of different types.
+preprocessor;the part of a C++ implementation that removes comments, performs macro substitution and #includes.
+priority_queue;standard library queue where a priority determines the order in which an  element reaches the head of the queue.
+private;access control keyword. See private member, private base.
+procedure;see function.
+program;a set of translation units complete enough to be made executable by a linker.
+protected;access control keyword.
+protection;see encapsulation.
+public;access control keyword.
+push_back();member function that adds an element at the end of a standard container,  such as vector,thereby increasing the container's size by one.
+queue;standard library first-in-first-out sequence.
+RAII;see resource acquisition is initialization.
+realloc();C standard allocation function. Use vector and push_back() instead.
+recursion;a function calling itself.
+reference;an alternative name for an object or a function.
+reinterpret_cast;a type conversion operation that reinterprets the raw memory of an  object as a value of another type.
+resource;any entity that a program acquires and releases.
+RTFM;Read The Manual (The 'F' is silent).Usually a very good idea.
+RTTI;see Run Time Type Information.
+rvalue;an expression that may appear on the right-hand side of an assignment, but not of the left-hand side.
+scope;a region of source text delimited by curly braces.
+SDE;Software Development Environment.
+selection-statement;if-statement or switch-statement.
+semantics;the rules specifying the meaning of a syntactically correct construct of a program.
+set;standard library associative container.
+short;integer of a size less than or equal to the size of an int.
+signature;the set of parameter types for a function.
+sizeof;operator yielding the size of an object.
+software;a collection of programs.
+sort();standard library algorithm for sorting a random access sequence, such as a vector or an array.
+specialization;a class or function generated from a template by supplying a complete set of template arguments.
+stack;memory used to hold local variables for a function.
+statement;the basic unit controlling the execution flow in a function.
+static;keyword used to declare a class member static meaning allocated in static memory.
+static_cast;a type conversion operation that converts between related types, such as  pointer types within a class hierarchy and between enumerations and integral types.
+Stepanov;Alex Stepanov is the original designer and implementer of the STL.
+strcmp();a C-style standard library function for comparing C-style strings.
+string;standard-library type representing a sequence of characters, support by convenient operators, such as == and +=.
+Stroustrup;see Bjarne Stroustrup.
+strstream;deprecated ancestor of stringstream.
+struct;class with members public by default.
+switch-statement;statement selecting among many alternatives based on an integer value.
+syntax;the set of gramatical rules specifying how the text of a program must be composed.
+template;class or function parameterized by a set of types, values, or templates.
+terminate();If an exception is thrown but no handler is found, terminate() is called.
+testing;systematically verifying that a program meets its specification and systematically searching for error.
+this;pointer to the object for which a non-static member function is called.
+throw;operation for interrupting the normal flow of control and returning to an  appropriate exception handler identifyed by the type of the exception throw.
+trait;a small policy object, typically used to describe aspects of a type.
+trigraph;alternative representation for C++ representation characters that doesn't exist  in every national character set, such as {, } , , [, ], and #: ??<, ??>, ??(, ??), and ??=
+true;bool value converts to 1.
+try;keyword used to start a try-block.
+try-block;a block, prefixed by the keyword try, specifying handlers for exceptions.
+type;a built-in type or a user-defined type.
+typedef;synonym for some type declared using the keyword typedef.
+typeid();operator returning basic type information.
+typename;an alternative to  ' class '  when declaring template arguments
+type_info;class containing basic run time type information.
+undefined;an aspect of C++'s semantics for which no reasonable behavior is required.
+union;a struct with all members allocated at the same offset within an object.
+upcast;a cast from a derived class to one of its bases.
+using;see using-directive and using-declaration.
+valarray;standard library numeric vector type supporting vector operations.
+value;the bits of an object interpreted according to the objects type.
+variable;named object in a scope.
+virtual;keyword used to declare a member function virtual.
+void;a keyword used to indicate an absence of information.
+void*;pointer to void that is, a pointer to an object of unknown type also called pointer to raw memory.
+volatile;attribute of a declaration telling the compiler that an entity can have its value  changed by extralinguistic means
+vptr;see virtual-function pointer.
+vtbl;see virtual- function table.
+wchar_t;wide character type.
+WG21;a common abbreviation of the name of the ISO C++ standards committee.
+while-statement;a loop statement presenting its condition 'at the top'.
+whitespace;characters that a represented only by the space they take up on a page or screen.
+word;a number of bytes that on a given machine is particularly suied to holding an integers  or a pointer.
+xor;synonym for ^, the bitwise exclusive or operator.
+zero;see NULL
